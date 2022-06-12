@@ -5,7 +5,7 @@ body{
     min-height: 100vh;
     padding: 10px;
     margin: 0;    
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .header{
     display: flex;right: 2px;
@@ -17,7 +17,7 @@ body{
     padding-left: 50px;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+   
 }
 ul{
     display: flex;
@@ -46,14 +46,16 @@ a{
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 .lefttextcontainer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between  ;
     height: 250px;
     width: 500px;
+    margin-bottom: 20px;
+    gap: 10px;
 }
 .lefttext1{
     font-size: 48px;
@@ -66,8 +68,8 @@ a{
 .rightcontainer{
     display: flex;
     flex-grow: 0;
-    height: 250px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
     background-color: #E5E7EB;
     justify-content: center;
 }
@@ -86,18 +88,76 @@ a{
 .body2images{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
+}
+.innerbox img{
+    width: 180px;
+    height: 180px;
 }
 .innerbox .text{
     display: flex;
     justify-content: center;
 }
+
+/* ***Begin Body 3***  */
 .body3{
     display: flex;
     background-color: #e5e7eb;
+    justify-content: center;
+    
+}
+.body3 .luffyquote{
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    width: 700px;
+    align-self: center;
+}
+.body3 .luffysig{
+    display: flex;
+    font-weight: bold;
+    color: #1F2937;
+    justify-content: flex-end;
+    padding-right: 29px;
+}
+/* ***Begin Body 4***  */
+.body4{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 .textbox{
+    display: flex;
+    justify-content: space-around;
     background-color: #3882F6;
+    width: 850px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.body4lefttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lefttextheader{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.lefttextcontent{
+    color: #E5E7EB;
+}
+.bottombutton{
+    display: flex;
+    justify-content: flex-end;    
+}
+#footerbutton{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 25px;
+    align-self: center;
 }
 .footer{
     display: flex;
@@ -107,10 +167,11 @@ a{
     background-color: #1F2937;
     color: #E5E7EB;
 }
-button{
+.buttonupper button{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
     border: none;
     padding: 10px 25px;
 }
+
